@@ -3,7 +3,7 @@
 ---
 
 ## Overview
-This report will analyze the data for 2018 and 2017 of 12 renewable energy stocks including Atlantica Yield, Canadian Solar, Daqo New Energy Group, Enphase Energy, First Solar, Hannon Armstrong Inc., Jinko Solar, SunRun, SolarEdge, SunPower, Terraform Power, and Vivint Solar. The goal is to automate the formatting and analysis using VBA in order to output the yearly return and total volume for each stock. After creating the first draft of working code (Module 1: draftCode), I decided to *refactor* it to come up with a **design pattern** (Module 2: VBA_Challenge) with improved code performance that could be used on any sotck data to measure yearly return and total volume. 
+This report will analyze the data for 2018 and 2017 of 12 renewable energy stocks including Atlantica Yield, Canadian Solar, Daqo New Energy Group, Enphase Energy, First Solar, Hannon Armstrong Inc., Jinko Solar, SunRun, SolarEdge, SunPower, Terraform Power, and Vivint Solar. The goal is to automate the formatting and analysis using VBA in order to output the yearly return and total volume for each stock. After creating the first draft of working code (Module 1: draftCode), I decided to *refactor* it to come up with a **design pattern** (Module 2: VBA_Challenge) with improved code performance that could be used on any sotck data to measure yearly returns and total volumes. 
 
 ## Analysis 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*Please, refer to the VBA_Challenge.xlsm in the repo specifically to the All Stocks Analysis worksheet. If you want to take a look to the entire code, open VBA and select the module called VBA_Challenge. There is only one Macro called "AllStockAnalysisRefactored".*
@@ -12,7 +12,7 @@ I first created an array for all the stocks, so that each one of them could be a
 
 ![Challenge2Exhibit4](https://user-images.githubusercontent.com/83378141/119200473-009cd300-ba5b-11eb-985a-21bee79ee2e2.png)
 
-Moreover, in order to come up with an automated analyis of the stocks I used a nested for loop that went through all the data, starting from the second row to the last one, storing the necessary information into arrays (total volume, first closing price, and last closing price) already initiated at the beginning of the macro. 
+Moreover, in order to come up with an automated analysis of the stocks I used a nested for loop that went through all the data, starting from the second row to the last one, storing the necessary information into arrays (total volume, first closing price, and last closing price) already initiated at the beginning of the macro. 
 
 ![Challenge2Exhibit3](https://user-images.githubusercontent.com/83378141/119200245-8d935c80-ba5a-11eb-9071-b0d85923326f.png)
 
