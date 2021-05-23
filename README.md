@@ -46,7 +46,7 @@ Before refactoring, my "draftCode" script in module 1 was running the analysis i
 ![VBA_Challenge_2017](https://user-images.githubusercontent.com/83378141/119248253-e8fa4300-bb5d-11eb-8db7-459de88b40a6.png)
 ![VBA_Challenge_2018](https://user-images.githubusercontent.com/83378141/119248258-ed266080-bb5d-11eb-8181-c9fff2046f4a.png)
 
-As you can see, the code for both years decreased almost by half to 0.57 seconds. Even though this might not be a huge difference in this case, when we work with significantly larger datasets code performance and execution time will be more important. 
+As you can see, the code run time for both years decreased almost by half to 0.57 seconds. Even though this might not be a huge difference in this case, when we work with significantly larger datasets code performance and execution times will be more important to us. 
 
 ## Summary
 
