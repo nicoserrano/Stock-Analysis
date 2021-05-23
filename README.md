@@ -39,6 +39,14 @@ In conclusion, even though the vast majority of them performed well in 2017, mos
 
 ### Execution Times and Code Performance
 
+As it was mentioned in the overview of the project, I first created a VBA script with multiple macros that analyzed the stock data and formatted the results. It did the job, however, I then thought I could refactor the code to be able to do everything in one single macro. This would not only decrease the execution time, but it would also serve me as an efficient design pattern that I could share and use with different stock data. 
+
+Before refactoring, my "draftCode" script in module 1 was running the analysis in 0.97 seconds without even including formatting as I had that done in another macro. The code execution time decreased significantly after I refactored. 
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/83378141/119248253-e8fa4300-bb5d-11eb-8db7-459de88b40a6.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/83378141/119248258-ed266080-bb5d-11eb-8181-c9fff2046f4a.png)
+
+As you can see, the code for both years decreased almost by half to 0.57 seconds. Even though this might not be a huge difference in this case, when we work with significantly larger datasets code performance and execution time will be more important. 
 
 ## Summary
 
